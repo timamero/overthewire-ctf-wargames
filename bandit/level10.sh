@@ -1,0 +1,6 @@
+#!/bin/sh
+# Level Goal: The password for the next level is
+# stored in the file data.txt, which contains
+# base64 encoded data
+
+base64 -d data.txt # -d option decodes the data
